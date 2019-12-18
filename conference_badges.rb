@@ -25,6 +25,6 @@ def printer(guest_speakers)
   room_assignments = assign_rooms(guest_speakers)
 
   badges.each_with_index do |speaker, index|
-    puts badges[index] " " room_assignments[index]
+    puts badges[index] room_assignments[index]
   end
 end
