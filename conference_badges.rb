@@ -17,6 +17,7 @@ def assign_rooms(guest_speakers)
   guest_speakers.each_with_index do |name, index|
     room_assignments << "Hello, #{name}! You'll be assigned to room #{index += 1}!"
   end
+  room_assignments
 end
 
 def printer
